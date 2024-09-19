@@ -1,1 +1,8 @@
-export {EmailIcon, PasswordIcon, SearchIcon } from './Icon'
+export {
+    EmailIcon, PasswordIcon, SearchIcon, MessageIcon, NotificationIcon,
+    BackIcon,
+    DashboardIcon,
+    ProjectIcon,
+    TaskIcon,
+    CalendarIcon
+ } from './Icon'

@@ -9,7 +9,7 @@ function MenuItem({ title, to, icon, isCollapse = false}) {
     <NavLink
       to={to}
       className={(nav) => {
-        return cx('menu-item', { active: nav.isActive })
+        return cx('menu-item', { active: nav.isActive, collapse: isCollapse })
       }}
     >
       <span className={cx('icon')}>{icon}</span>
