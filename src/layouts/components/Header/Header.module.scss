@@ -3,3 +3,27 @@
     background-color: antiquewhite;
     // transition: 0.3s ease;
 }
+
+.form-input{
+    width: 340px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 0px 16px 0px 16px;
+    background-color: #1A1D21;
+}
+
+.input-text{
+    height: 100%;
+    flex: 1;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.input-text::placeholder{
+    color: #6F767E;
+}
