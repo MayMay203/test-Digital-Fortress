@@ -1,6 +1,29 @@
 .wrapper{
     width: var( --sidebar-width);
-    background-color: aqua;
+    background-color: #0D0F10;
     height: 100vh;
     transition: width 0.3s ease;
+    border-radius: 16px;
+    padding: 20px 12px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8px 25px 8px; 
+    border-bottom: 1px solid #282828;
+}
+
+.btn{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #1A1D21;
+    border: none;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 0.9;
+    }
 }
