@@ -1,0 +1,35 @@
+.wrapper{
+    margin-top: 20px;
+}
+
+.heading{
+    font-size: 3.2rem;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 24px 16px 24px;
+    background-color: #0D0F10;
+    border-radius: 0 0 16px 16px;
+}
+
+.btn{
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    border: 1px solid #282828;
+    background-color: #131619;
+}
+
+.title{
+    font-size: 1.4rem;
+    color: #6F767E;
+    font-weight: 500;
+    line-height: 20px;
+}
+
