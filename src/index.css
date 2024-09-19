@@ -68,4 +68,9 @@ button, input{
 
 :root{
   --sidebar-width: 312px;
+  --primary-color: #B6F09C;
+}
+
+a{
+	text-decoration: none;
 }
